@@ -1,0 +1,137 @@
+type: edu
+files:
+  - name: src/main/java/org/hyperskill/simplebankmanager/MainActivity.kt
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable/ic_launcher_background.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable-v24/ic_launcher_foreground.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/layout/activity_main.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/colors.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/strings.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/themes.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values-night/themes.xml
+    visible: true
+    learner_created: false
+  - name: src/main/AndroidManifest.xml
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/internals/screen/LoginScreen.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/internals/screen/TransferFundsScreen.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/internals/screen/UserMenuScreen.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/internals/screen/ViewBalanceScreen.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/internals/AbstractUnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/internals/SimpleBankManagerUnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/Stage1UnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/Stage2UnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/simplebankmanager/Stage3UnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/UserMenuFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/ViewBalanceFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/login/LoginResult.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/values/dimens.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/login/LoginFormState.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/data/LoginRepository.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/data/model/LoggedInUser.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/login/LoggedInUserView.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/navigation/nav_graph.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/data/Result.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/fragment_user_menu.xml
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/fragment_view_balance.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/data/LoginDataSource.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/fragment_login.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/login/LoginViewModel.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/login/LoginFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/login/LoginViewModelFactory.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/fragment_transfer_funds.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/transferfunds/TransferFundsFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/TransferFundsFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/fragment_calculate_exchange.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/simplebankmanager/ui/CalculateExchangeFragment.kt
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/27107#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 11 Mar 2025 15:34:15 UTC"
+record: 3

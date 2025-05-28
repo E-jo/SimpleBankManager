@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.UserMenuFragment">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/userMenuWelcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/userMenuViewBalanceButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/menu_welcome" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/userMenuViewBalanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_balance"
+        app:layout_constraintBottom_toTopOf="@+id/userMenuTransferFundsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuWelcomeTextView"
+        tools:layout_marginEnd="16dp"
+        tools:layout_marginStart="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/userMenuTransferFundsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transfer_funds"
+        app:layout_constraintBottom_toTopOf="@+id/userMenuExchangeCalculatorButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuViewBalanceButton"
+        tools:layout_marginEnd="16dp"
+        tools:layout_marginStart="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/userMenuExchangeCalculatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_exchange"
+        app:layout_constraintBottom_toTopOf="@+id/userMenuPayBillsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuTransferFundsButton"
+        tools:layout_marginEnd="16dp"
+        tools:layout_marginStart="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/userMenuPayBillsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_bills"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuExchangeCalculatorButton"
+        tools:layout_marginEnd="16dp"
+        tools:layout_marginStart="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

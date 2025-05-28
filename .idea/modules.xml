@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Bank_Manager.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Bank_Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Bank Manager/task/Simple_Bank_Manager.Simple_Bank_Manager-task.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Bank_Manager.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Bank_Manager.util.iml" />
+    </modules>
+  </component>
+</project>
