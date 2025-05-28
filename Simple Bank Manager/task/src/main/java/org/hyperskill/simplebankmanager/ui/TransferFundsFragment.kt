@@ -76,7 +76,7 @@ class TransferFundsFragment : Fragment() {
 
             println("Transferring ${String.format(Locale.US, "%.2f", amount)} to $account")
 
-            balance -= amount
+            balance = balance!! - amount
             Toast.makeText(
                 activity,
                 "Transferred $${String.format(Locale.US, "%.2f", amount)} to account $account",
