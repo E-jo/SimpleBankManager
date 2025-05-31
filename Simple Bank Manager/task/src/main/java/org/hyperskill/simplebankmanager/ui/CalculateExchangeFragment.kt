@@ -14,6 +14,7 @@ import android.widget.Spinner
 import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.core.os.BundleCompat.getSerializable
 import org.hyperskill.simplebankmanager.R
 import java.util.Locale
 
@@ -27,11 +28,14 @@ class CalculateExchangeFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_calculate_exchange, container, false)
     }
 
-    @RequiresApi(Build.VERSION_CODES.M)
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val exchangeMap = arguments?.getSerializable("exchangeMap")
+        val exchangeMap = arguments?.getSerializable(
+            "exchangeMap",
+            HashMap::class.java
+        )
                 as HashMap<String, Map<String, Double>>
 
         val fromSpinner = view.findViewById<Spinner>(R.id.calculateExchangeFromSpinner)

@@ -24,7 +24,7 @@ class TransferFundsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        var balance = arguments?.getDouble("balance")
+        val initialBalance = arguments?.getDouble("balance") ?: 0.0
         val username = arguments?.getString("username")
 
         val transferFundsButton = view.findViewById<TextView>(R.id.transferFundsButton)
@@ -64,7 +64,7 @@ class TransferFundsFragment : Fragment() {
                 return@setOnClickListener
             }
 
-            if (amount > balance!!) {
+            if (amount > initialBalance) {
                 println("Not enough funds to transfer $amount")
                 Toast.makeText(
                     activity,
@@ -76,7 +76,8 @@ class TransferFundsFragment : Fragment() {
 
             println("Transferring ${String.format(Locale.US, "%.2f", amount)} to $account")
 
-            balance = balance!! - amount
+            val updatedBalance = initialBalance - amount
+
             Toast.makeText(
                 activity,
                 "Transferred $${String.format(Locale.US, "%.2f", amount)} to account $account",
@@ -84,7 +85,7 @@ class TransferFundsFragment : Fragment() {
             ).show()
 
             val bundle = Bundle()
-            bundle.putDouble("balance", balance.toDouble())
+            bundle.putDouble("balance", updatedBalance.toDouble())
             bundle.putString("username", username)
 
             findNavController().navigate(
